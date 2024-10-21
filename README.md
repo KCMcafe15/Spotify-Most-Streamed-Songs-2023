@@ -1,10 +1,10 @@
 # Spotify-Most-Streamed-Songs-2023
 
-![Dashboard Overview](https://github.com/KCMcafe15/Logistics-Analysis-Project/blob/96eb0250e964a8b3db3fa5d2f82272c92abdf1cd/img/Logistics%20Dashboard.JPG)
+![Dashboard Overview](https://github.com/KCMcafe15/Spotify-Most-Streamed-Songs-2023/blob/3ebe03af7632313364ea33a99bc6bc63da605c72/img/spotify%20dashboard.JPG)
 
 ## About the project
 
-This project focuses on providing a comprehensive view of logistics operations, including shipment status, revenue generation, and delivery performance across various product categories and regions. It enables stakeholders to monitor key metrics, such as average delivery times and salesperson performance, to enhance decision-making and operational efficiency.
+This project involves analyzing Spotify music data, focusing on total tracks, streams, and trends over time. The dashboard highlights key metrics like top streamed tracks, average streams by month, and specific track attributes such as energy, danceability, and mode.
 
 ## About the dataset
 
@@ -12,29 +12,27 @@ The primary datasets used in this project are Country.csv, Product.csv, SalesPer
 
 ## Data Model
 
-![Data Model](https://github.com/KCMcafe15/Logistics-Analysis-Project/blob/96eb0250e964a8b3db3fa5d2f82272c92abdf1cd/img/data%20model.JPG)
+![Data Model](https://github.com/KCMcafe15/Spotify-Most-Streamed-Songs-2023/blob/3ebe03af7632313364ea33a99bc6bc63da605c72/img/data-model.JPG)
 
 ## Questions for the analysis
-1. What is the total revenue generated from shipments?
-2. How many shipments were completed successfully?
-3. What is the average delivery time?
-4. Which product category generated the most revenue?
-5. Who is the top-performing salesperson in terms of total shipments handled?
+1. What is the most streamed track on Spotify during the selected period? 
+2. Which months have the highest average streams, and how does this trend change over the year?
+3. What is the distribution of streams by release year, and how have music trends evolved over time?
+4. Which day of the week sees the highest stream count on average?
+5. What are the characteristics (energy, speechiness, danceability) of the top streamed track, and how do these attributes compare to others?
 
 ## Key takeaways
-1. The total revenue generated is **$2M**, indicating strong logistics activity.
-2. **3K** shipments were completed, representing **62%** of all shipments, which suggests a high success rate.
-3. The average delivery time is **10 days**, providing a standard measure of operational efficiency.
-4. **Electronics** contributed the largest portion of revenue at **68%**, highlighting its dominance in the market.
-5. **Bonnie Lucero** is the top performer, handling **286** total shipments with a relatively low return rate, indicating high efficiency.
+1. Blinding Lights is the most streamed track, with over 3.7 billion streams, reflecting its massive global popularity.
+2. Friday has the highest streaming activity, likely due to new music releases and weekend listening habits.
+3. September and October stand out as months with the highest average streams, possibly due to new album drops or holiday season preparation.
+4. Streams are concentrated on newer tracks, with a sharp increase after the rise of digital platforms around the year 2000.
+5. Popular songs tend to have high energy and danceability, indicating listener preferences for upbeat music.
 
 ## Recommendations
-
-1. Given that **68% of revenue** comes from electronics, consider prioritizing resources and marketing efforts toward this category to further boost revenue.   
-2. With an average delivery time of **10 days**, explore optimizing supply chain processes, especially in regions like Australia, to reduce delays.
-3. Since **4.96% of shipments** are returned, identify the reasons behind returns and implement strategies (e.g., quality checks, better product descriptions) to lower this percentage.
-4. Utilize high-performing salespeople like **Bonnie Lucero** and **Kayla Banks** for training or mentorship programs to elevate the performance of others.
-5. Countries with longer delivery times, such as **Australia** and **Japan**, could benefit from localized logistics improvements to enhance customer satisfaction and increase repeat business.
+1. Artists could target Friday releases to maximize initial stream potential.
+2. Marketing campaigns should be concentrated in late summer and fall (August to October) to capitalize on peak streaming months.
+3. Content creators might focus on producing high-energy, danceable tracks to align with the characteristics of the most streamed music. 
+4. Spotify could explore boosting engagement on days with lower stream counts (e.g., Monday, Tuesday) through curated playlists or promotions.
 
 ## Skills used
 •	Cleaning data using power bi power query <br>
@@ -42,6 +40,4 @@ The primary datasets used in this project are Country.csv, Product.csv, SalesPer
 •	Creating New Measures using DAX <br>
 •	Data Modelling <br>
 •	Creating Calendar Table with DAX <br>
-•	Custom Bar Color using SWITCH Method in DAX <br>
-•	% of total calculation <br>
-•	Sparklines
+
