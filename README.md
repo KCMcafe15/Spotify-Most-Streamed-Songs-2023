@@ -2,6 +2,8 @@
 
 ![Dashboard Overview](https://github.com/KCMcafe15/Spotify-Most-Streamed-Songs-2023/blob/3ebe03af7632313364ea33a99bc6bc63da605c72/img/spotify%20dashboard.JPG)
 
+[Click here](https://app.powerbi.com/view?r=eyJrIjoiZWVmYTRhMjEtN2RhMi00N2FkLWE5N2YtNjZlNjUzMTMyZjEzIiwidCI6ImE0Yzk4YWY4LWZjZmEtNDY0Zi1iOTJjLWJkZTEyMjA2NmZlNSIsImMiOjEwfQ%3D%3D) to view the Power BI dashboard
+
 ## About the project
 
 This project involves analyzing Spotify music data, focusing on total tracks, streams, and trends over time. The dashboard highlights key metrics like top streamed tracks, average streams by month, and specific track attributes such as energy, danceability, and mode.
